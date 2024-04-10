@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="126" id="KGk-i7-Jjw" customClass="ItemTableViewCell" customModule="TodolistApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="453" height="126"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="453" height="126"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ioe-mr-j3f">
+                        <rect key="frame" x="10" y="5" width="433" height="116"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="item desription" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGh-fj-hgu">
+                                <rect key="frame" x="64" y="4" width="357" height="108"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unCheckMovement" translatesAutoresizingMaskIntoConstraints="NO" id="aSb-af-vKj">
+                                <rect key="frame" x="12" y="38" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="TZe-XA-lOG"/>
+                                    <constraint firstAttribute="width" constant="40" id="kCK-MH-v0B"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.52003874591343491" green="0.75116299733246228" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="CGh-fj-hgu" secondAttribute="bottom" constant="4" id="MPn-Qd-KBA"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="Qum-Ww-h42"/>
+                            <constraint firstItem="CGh-fj-hgu" firstAttribute="centerY" secondItem="Ioe-mr-j3f" secondAttribute="centerY" id="hob-Mx-LhM"/>
+                            <constraint firstAttribute="trailing" secondItem="CGh-fj-hgu" secondAttribute="trailing" constant="12" id="lLs-mH-8MJ"/>
+                            <constraint firstItem="CGh-fj-hgu" firstAttribute="leading" secondItem="aSb-af-vKj" secondAttribute="trailing" constant="12" id="oEU-JD-utq"/>
+                            <constraint firstItem="aSb-af-vKj" firstAttribute="leading" secondItem="Ioe-mr-j3f" secondAttribute="leading" constant="12" id="rFe-8y-YD7"/>
+                            <constraint firstItem="CGh-fj-hgu" firstAttribute="top" secondItem="Ioe-mr-j3f" secondAttribute="top" constant="4" id="sN0-vh-4Sq"/>
+                            <constraint firstItem="aSb-af-vKj" firstAttribute="centerY" secondItem="Ioe-mr-j3f" secondAttribute="centerY" id="zTM-5G-YOl"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Ioe-mr-j3f" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="6IK-cj-jRB"/>
+                    <constraint firstAttribute="trailing" secondItem="Ioe-mr-j3f" secondAttribute="trailing" constant="10" id="ARj-z9-7PN"/>
+                    <constraint firstItem="Ioe-mr-j3f" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Pqu-jm-0b5"/>
+                    <constraint firstAttribute="bottom" secondItem="Ioe-mr-j3f" secondAttribute="bottom" constant="5" id="q0j-3h-Ai7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="generalView" destination="Ioe-mr-j3f" id="sJc-IE-irJ"/>
+                <outlet property="itemCheckState" destination="aSb-af-vKj" id="lio-ke-Yu1"/>
+                <outlet property="itemLbl" destination="CGh-fj-hgu" id="2UF-mx-PrC"/>
+            </connections>
+            <point key="canvasLocation" x="211.4503816793893" y="49.295774647887328"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="unCheckMovement" width="24" height="24"/>
+    </resources>
+</document>

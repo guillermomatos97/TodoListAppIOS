@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "66F7049A-91D9-4393-961D-1DCB98E567CD"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3942959F-0A1F-4E82-B02E-4EAD8AEE7AE7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TodolistApp/View/TodoListMainView/TodoListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "TodoListViewController"
+            landmarkType = "21">
+            <Locations>
+               <Location
+                  uuid = "3942959F-0A1F-4E82-B02E-4EAD8AEE7AE7 - 4887b78a49b26f7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodolistApp.TodoListViewController.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "TodolistApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gmatosuc/Desktop/IOS%20PLAY/TodolistApp/TodolistApp/View/TodoListMainView/TodoListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "45">
+               </Location>
+               <Location
+                  uuid = "3942959F-0A1F-4E82-B02E-4EAD8AEE7AE7 - 4887b78a49b271c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodolistApp.TodoListViewController.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "TodolistApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gmatosuc/Desktop/IOS%20PLAY/TodolistApp/TodolistApp/View/TodoListMainView/TodoListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "443F6384-B684-4C73-888D-8DE4E11F7674"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TodolistApp/View/TodoListMainView/TodoListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "443F6384-B684-4C73-888D-8DE4E11F7674 - d79687e6e7e581f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodolistApp.TodoListViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "TodolistApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gmatosuc/Desktop/IOS%20PLAY/TodolistApp/TodolistApp/View/TodoListMainView/TodoListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "105">
+               </Location>
+               <Location
+                  uuid = "443F6384-B684-4C73-888D-8DE4E11F7674 - d79687e6e7e58fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodolistApp.TodoListViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "TodolistApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gmatosuc/Desktop/IOS%20PLAY/TodolistApp/TodolistApp/View/TodoListMainView/TodoListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "105">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8160BB7D-7D94-48DF-B56A-89F0F3CA8E21"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TodolistApp/View/AddItemView/AddItemViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "addItemAction(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8160BB7D-7D94-48DF-B56A-89F0F3CA8E21 - 7dff1a6ba6cb166"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodolistApp.AddItemViewController.addItemAction(__C.UIButton) -&gt; ()"
+                  moduleName = "TodolistApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gmatosuc/Desktop/IOS%20PLAY/TodolistApp/TodolistApp/View/AddItemView/AddItemViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "97">
+               </Location>
+               <Location
+                  uuid = "8160BB7D-7D94-48DF-B56A-89F0F3CA8E21 - 7dff1a6ba6cb105"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodolistApp.AddItemViewController.addItemAction(__C.UIButton) -&gt; ()"
+                  moduleName = "TodolistApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gmatosuc/Desktop/IOS%20PLAY/TodolistApp/TodolistApp/View/AddItemView/AddItemViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "125">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5EFB62B-420E-4D07-BAA4-338FDFC29914"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TodolistApp/Controller/TodoListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "showCompleted(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F5EFB62B-420E-4D07-BAA4-338FDFC29914 - 7f45745371c0d109"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodolistApp.TodoListViewController.showCompleted(__C.UIButton) -&gt; ()"
+                  moduleName = "TodolistApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gmatosuc/Desktop/IOS%20PLAY/TodolistApp/TodolistApp/Controller/TodoListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "138">
+               </Location>
+               <Location
+                  uuid = "F5EFB62B-420E-4D07-BAA4-338FDFC29914 - 7f45745371c0d109"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodolistApp.TodoListViewController.showCompleted(__C.UIButton) -&gt; ()"
+                  moduleName = "TodolistApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gmatosuc/Desktop/IOS%20PLAY/TodolistApp/TodolistApp/Controller/TodoListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "149">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
